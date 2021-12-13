@@ -1,0 +1,28 @@
+.Results__table {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.Results__table p {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.results__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Results ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Results ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}

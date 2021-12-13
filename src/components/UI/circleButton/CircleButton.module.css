@@ -1,0 +1,18 @@
+.CircleButton {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background: #b71540;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  font-size: 60px;
+}
+
+.CircleButton:active {
+  background: #610d23;
+  width: 190px;
+  height: 190px;
+}
