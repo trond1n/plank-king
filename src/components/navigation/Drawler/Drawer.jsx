@@ -27,7 +27,9 @@ export const Drawer = (props) => {
                   to={link.to}
                   exaxt={link.exact}
                   onClick={props.onClose}
-                  style={({ isActive }) => ({ opacity: isActive ? ".7" : "1" })}
+                  style={({ isActive }) => ({
+                    opacity: isActive ? ".7" : null,
+                  })}
                 >
                   {link.label}
                 </NavLink>

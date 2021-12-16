@@ -10,7 +10,8 @@ export const Main = (props) => {
         <CircleButton buttonName="Go!" />
       </NavLink>
       <p>
-        Хочешь узнать подробнее о планке? <a href="/info">Почитай здесь</a>
+        Хочешь узнать подробнее о планке?{" "}
+        <NavLink to="/info">Почитай здесь</NavLink>
       </p>
     </div>
   );
