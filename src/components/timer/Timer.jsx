@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { CircleButton } from "../UI/circleButton/CircleButton";
 import classes from "./Timer.module.css";
-import check from "../../assets/check.svg";
-import repeat from "../../assets/repeat.svg";
+// import check from "../../assets/check.svg";
+// import repeat from "../../assets/repeat.svg";
 
 export const Timer = (props) => {
   const [buttonName, setButtonName] = useState("Start!");
